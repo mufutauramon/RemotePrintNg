@@ -1,6 +1,6 @@
 import { getSqlPool } from '../../lib/sql.js';
 import { BlobServiceClient } from '@azure/storage-blob';
-import ipp from 'ipp';
+
 
 export default async function (context, myTimer) {
   const pool = await getSqlPool();
