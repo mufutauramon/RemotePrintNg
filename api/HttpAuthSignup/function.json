@@ -5,15 +5,9 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "methods": [
-        "post"
-      ],
-      "route": "auth/signup"
+      "methods": ["post","get"],  
+      "route": "auth/signup"       
     },
-    {
-      "type": "http",
-      "direction": "out",
-      "name": "res"
-    }
+    { "type": "http", "direction": "out", "name": "res" }
   ]
 }
