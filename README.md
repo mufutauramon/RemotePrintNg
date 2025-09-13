@@ -44,3 +44,4 @@ This repo contains a complete **SWA** setup:
 - Frontend calls `/api/*` automatically (SWA proxy).
 - Upload uses **SAS** (browser uploads directly to Blob).
 - Remember to create SQL schema for Plans/Users/Subscriptions/Jobs.
+- Thank you
